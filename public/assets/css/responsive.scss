@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1199px) {
+  .ml-50 {
+    margin-left: unset;
+  }
+  .hero-wrap {
+
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      .logo {
+        position: absolute;
+        bottom: 16px;
+        left: -30px !important;
+        img {
+          width: 50%;
+          height: 50%;
+        }
+      }
+    }
+  }
+  .main-responsive-nav {
+    background-color: var(--whiteColor);
+    height: 65px;
+    position: relative;
+    z-index: 5;
+  }
+  
+  .mobile-nav {
+    display: block;
+    position: relative;
+    .logo {
+      top: 14px;
+      left: 0;
+      z-index: 999;
+      position: absolute;
+      color: #fff;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    nav .navbar-nav {
+      max-height: 64vh;
+      overflow-y: scroll;
+      -webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
+      box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
+
+      .nav-item a i {
+        display: none;
+      }
+
+      &::-webkit-scrollbar {
+        width: 7px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: #888;
+
+        &:hover {
+          background: #555;
+        }
+      }
+    }
+    ul {
+      li {
+        a {
+          i {
+            font-size: 25px;
+            transform: translateY(25%);
+          }
+        }
+      }
+    }
+  }
+
+  .mean-container {
+    .mean-bar {
+      background-color: var(--whiteColor);
+      padding: 0;
+    }
+
+    a.meanmenu-reveal {
+      padding: 5px 2px 0 0;
+      -webkit-transition: 0s !important;
+      transition: 0s !important;
+    }
+  }
+
+  .main-nav {
+    display: none !important;
+  }
+
+  .menu-sidebar {
+    display: none;
+  }
+
+  .menu-small-device {
+    z-index: 2;
+    right: 45px;
+    top: 16px;
+    display: block !important;
+
+    .default-button {
+      padding: 7px 10px;
+      font-size: 14px;
+    }
+  }
+
+  .meanclose {
+    top: 60% !important;
+  }
+  .Info-container {
+    .Info-container-content {
+      .worker-position {
+        padding: 11px 8px;
+      }
+      .center-f-2 {
+        p {
+          line-height: 0.8;
+        }
+      }
+      .center-f {
+        padding-left: 6px;
+      }
+  
+  
+    }
+
+  }
+  .logo-rect {
+    padding-top: 60px;
+  }
+  
+}
+@media only screen and (min-width:1200px) and(max-width:1399px){
+  .topbar-left-side {
+      text-align: center;
+  }
+  .main-banner{
+    margin-top: 0px;
+    .banner-text-area{
+        padding-top: 270px;
+        padding-bottom: 100px;
+
+
+    }
+
+}
+.banner-text-area {
+    h1 {
+        font-size: 82px;
+    }
+
+}
+}
